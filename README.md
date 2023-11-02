@@ -57,7 +57,7 @@
         if pergunta == "s":
             continue
         elif pergunta == "n":
-            print("Tudo bem! Encerrnado sistema...")
+            print("Tudo bem! Encerrando sistema...")
             break
         else:
             print("Resposta inválida! Encerrando sistema.")
