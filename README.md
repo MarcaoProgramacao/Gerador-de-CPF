@@ -1,18 +1,12 @@
 # Gerador-de-CPF
 
     import random
+
+    boas_vindas = input("Olá! Seja bem vindo a sua geradora de CPF infinita!\nDigite qualquer tecla para conseguir seu primeiro CPF. ")
+
     while True:
 
-        boas_vindas = input("Olá! Seja bem vindo a sua geradora de CPF infinita! Gostaria de pedir um CPF? Digite [S] para sim e [N] para não. ")
-        boas_vindas = boas_vindas.lower()
-    
-        if boas_vindas == "n":
-            print("Tudo bem! Volte quando precisar.")
-            break
-        if boas_vindas != "n" and boas_vindas != "s":
-            print("Resposta inválida! Encerrando sistema.")
-            break
-    
+
         nove_dig = []
         rst = 0
         mult = 10
@@ -53,6 +47,7 @@
         else:
             nove_dig.append(rst)
     
+        print("Aqui está seu CPF!")
         for elemento in nove_dig:
             print(elemento, end='')
     
@@ -67,5 +62,7 @@
         else:
             print("Resposta inválida! Encerrando sistema.")
             break
+
+
 
 
