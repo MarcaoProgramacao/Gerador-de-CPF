@@ -1,7 +1,7 @@
 # Gerador-de-CPF
 
-import random
-while True:
+    import random
+    while True:
 
     boas_vindas = input("Olá! Seja bem vindo a sua geradora de CPF infinita! Gostaria de pedir um CPF? Digite [S] para sim e [N] para não. ")
     boas_vindas = boas_vindas.lower()
